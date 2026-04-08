@@ -1,1 +1,1 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Springs67/AutumnV3/refs/heads/Main/installer.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vxrm/NovolineForRoblox/refs/heads/Main/installer.lua'))()
