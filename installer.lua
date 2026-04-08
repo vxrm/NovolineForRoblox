@@ -1,4 +1,4 @@
-local base = "https://raw.githubusercontent.com/vxrm/NovolineForRoblox/refs/heads/Main/"
+local base = "https://raw.githubusercontent.com/vxrm/NovolineForRoblox/refs/heads/main/"
 
 if isfile('Novoline/core.lua') then
     loadfile('Novoline/core.lua')()
