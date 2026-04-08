@@ -13,3 +13,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vxrm/NovolineForRoblo
 
 ## Credits:
 - UI Libary: https://github.com/Springs67/AutumnV3/blob/Main/guis/autumnv1.lua
+- Loader, all core systems: https://github.com/Springs67/AutumnV3/tree/Main
+- Core systems: https://github.com/Springs67
