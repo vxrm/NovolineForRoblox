@@ -197,14 +197,14 @@ GuiLibrary.SessionInfo = {
 		local UIGradient = Instance.new('UIGradient')
         UIGradient.Parent = SeperatorFrame
         UIGradient.Color = ColorSequence.new({
-            ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
-            ColorSequenceKeypoint.new(1, Color3.fromRGB(121, 0, 0))
+            ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 0)),
+            ColorSequenceKeypoint.new(1, Color3.fromRGB(155, 155, 0))
         })
 		local UIGradient2 = Instance.new('UIGradient')
         UIGradient2.Parent = Name
         UIGradient2.Color = ColorSequence.new({
-            ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
-            ColorSequenceKeypoint.new(1, Color3.fromRGB(121, 0, 0))
+            ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 0)),
+            ColorSequenceKeypoint.new(1, Color3.fromRGB(155, 155, 0))
         })
 
 		local lastRot = tick()
@@ -302,7 +302,7 @@ GuiLibrary.ArrayManager = {
         Item.BackgroundTransparency = 0.4
         Item.TextColor3 = Color3.fromRGB(255, 70, 70)
         Item.TextSize = 15
-        Item.Font = Enum.Font.GothamSemibold
+        Item.Font = Enum.Font.FredokaOne
         Item.Text = '  ' .. Name .. '  '
         Item.Name = Name
         Item.Size = UDim2.new(0, getTextSize(Item).X + 6, 0, 24)
@@ -540,7 +540,7 @@ function GuiLibrary:CreateWindow(Name: string)
 					Config[Table.Name].Toggles[Tab.Name].Enabled = self.Enabled
 					
 					TweenService:Create(ToggleButton, TweenInfo.new(0.1), {
-						TextColor3 = (self.Enabled and Color3.fromRGB(255, 0, 0) or (IsHovering and Color3.fromRGB(200, 200, 200) or Color3.fromRGB(125, 125, 125)))
+						TextColor3 = (self.Enabled and Color3.fromRGB(255, 255, 0) or (IsHovering and Color3.fromRGB(200, 200, 200) or Color3.fromRGB(125, 125, 125)))
 					}):Play()
 					
 					if Tab.Function then
